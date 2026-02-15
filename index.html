@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrot Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="data.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Header -->
+        <nav class="navbar">
+            <div class="navbar-left">
+                <div class="logo">🥕 Carrot</div>
+                <input type="text" class="search-box" placeholder="Search students...">
+            </div>
+            <div class="navbar-right">
+                <button class="icon-btn">👤</button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Class Board Section -->
+            <div class="board-header">
+                <span class="board-label">🥕 CLASS CARROT </span>
+                <h1>Top students today</h1>
+                <p class="board-description">See who is climbing the carrot ladder and keeping their streaks.</p>
+            </div>
+
+            <!-- Top Students Section -->
+            <div class="top-students-wrapper">
+                <div class="top-students">
+                    <!-- Students will be populated by JavaScript -->
+                </div>
+
+                <!-- Controls Section
+                <div class="controls">
+                    <div class="sort-dropdown">
+                        <label>Sort by:</label>
+                        <select>
+                            <option value="highest">Highest carrots</option>
+                            <option value="alphabetical">Alphabetical</option>
+                            <option value="lowest">Least carrots</option>
+                        </select>
+                    </div>
+                    <button class="btn-primary">➕ Add Student</button>
+                    <button class="btn-secondary">📝 Add Task</button>
+                </div> -->
+            </div>
+
+            <!-- Full Class Grid -->
+            <div class="full-class-section">
+                <p class="grid-label">📊 Full class grid (students not in Top 3)</p>
+
+                <div class="students-grid">
+                    <!-- Students will be populated by JavaScript -->
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
